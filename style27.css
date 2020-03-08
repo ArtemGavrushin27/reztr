@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    font-size: 15px;
+    color: #333;
+    line-height: 1.6;
+}
+.container{
+	width: 100%;
+	max-width: 1700px;
+	margin: 0 auto;
+	padding-left: 25px;
+	padding-top: 10px;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 50px;
+}
+.intro{
+	width: 100vw;
+	height: 100vh;
+
+	background:url(https://wallpapercan.com/download/1920x1080/ca727a94/lake-nature-blue-mountains-nature.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.intor__inner{
+	width: 100%;
+	max-width: 880px;
+	margin: 0 auto;
+	text-align: center;
+}
+.intro__title{
+	color: #fff;
+	font-size: 130px;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 1;
+}
+.intro__title:after{
+	content: "";
+	display: block;
+	height: 5px;
+	width: 60px;
+    margin: 60px auto ;
+
+    background-color: #fff;
+}
+.intro__suptitle1{
+    font-size: 32px;
+    color: #fff;
+    text-align: center;
+}
+.header{
+	width: 100#;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding-top: 30px;
+}
+.header__inner1{
+	display: flex;
+	justify-content:	space-between;
+	align-items: center;
+}
+.header__logo{
+	font-size: 32px;
+	font-weight: 700;
+	color: #fff;
+}
+.nav1{
+	font-size: 15px;
+	text-transform: uppercase;
+}
+.nav__link1{
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 15px;
+
+	color: #fff;
+	text-decoration: none;
+	transition: color 0.1s linear;
+
+	position: relative;
+}
+.nav__link1:after{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 3px;
+	opacity: 0;
+
+	background-color: #27bde3;
+
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1;
+
+	transition: opacity 0.1s linear;
+}
+.nav__link1:hover{
+	color: #27bde3;
+}
+.nav__link1:hover:after{
+	opacity: 1;
+}
+.btn1{
+	display: inline-block;
+	vertical-align: top;
+	padding: 8px 30px;
+
+	border: 3px solid #fff;
+
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight:700;
+	text-decoration: none;
+
+	transition: background 0.1s linear, color 0.1s linear;
+}
+.btn1:hover{
+	background-color: #fff;
+	color: #333;
+}
+.slider{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+.slider__item{
+	width: 23%;
+	padding: 20px 0;
+
+	border-top: 2px solid #fff;
+	opacity: 0.8;
+
+	font-size: 20px;
+	color: #fff;
+	text-decoration: uppercase;
+}
+.slider__num{
+	font-size: 25px;
+	font-weight: 700;
+}
